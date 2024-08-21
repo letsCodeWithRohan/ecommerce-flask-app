@@ -1,6 +1,6 @@
 <h1>ecommerce application in flask</h1>
 
-<h3>Created By Chaudhari Rohan</h3>
+<h3>Created By Harshal Chaudhari</h3>
 
 <h4>Steps to download and run this project</h4>
 
