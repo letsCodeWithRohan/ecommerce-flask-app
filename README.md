@@ -1,4 +1,4 @@
-<h1>To-do-list application in flask</h1>
+<h1>ecommerce application in flask</h1>
 
 <h3>Created By Chaudhari Rohan</h3>
 
