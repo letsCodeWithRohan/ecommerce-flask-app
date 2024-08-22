@@ -213,6 +213,14 @@ def track_order():
         data = cursor.fetchall()
         return render_template("track_order.html",data=data)
 
+@app.route("/delete/<int:id>")
+def delete(id):
+    cursor = mysql.connection.cursor()
+    cursor.execute("DELETE FROM products WHERE id = %s",(id,))
+    mysql.connection.commit()
+    return redirect(url_for("admin_items"))
+
+
 @app.route("/order_update/<int:id>",methods=["GET","POST"])
 def order_update(id):
     if request.method == "POST":
